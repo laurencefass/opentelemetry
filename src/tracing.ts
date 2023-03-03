@@ -18,8 +18,8 @@ import { diag, DiagConsoleLogger, DiagLogLevel } from '@opentelemetry/api';
 diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
 
 export const monitoringAttributes: Record<string, string> = {
-  [SemanticResourceAttributes.SERVICE_NAMESPACE]: 'b2b_aff_microservices',
-  [SemanticResourceAttributes.SERVICE_NAME]: 'events_service',
+  [SemanticResourceAttributes.SERVICE_NAMESPACE]: 'opentelemetry',
+  [SemanticResourceAttributes.SERVICE_NAME]: 'observable_appl',
   [SemanticResourceAttributes.DEPLOYMENT_ENVIRONMENT]:
     process.env.NODE_ENV ?? 'production',
 };
