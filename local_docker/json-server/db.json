@@ -1,0 +1,1137 @@
+{
+	"diffusion": [
+		{
+			"bookmaker": {
+				"id": 1,
+				"name": "William Hill"
+			},
+			"aliases": [
+				{
+					"alias": "WH_OXI",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "WH_RETAIL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "WH_US",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 2,
+				"name": "Coral"
+			},
+			"aliases": [
+				{
+					"alias": "CORAL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "CORAL_GB",
+					"country": "GB",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 3,
+				"name": "Ladbrokes"
+			},
+			"aliases": [
+				{
+					"alias": "LADB",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "LADB_GB",
+					"country": "GB",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "LADB_IRE",
+					"country": "IRE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 4,
+				"name": "Paddy Power"
+			},
+			"aliases": [
+				{
+					"alias": "PADDYPOWER",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 5,
+				"name": "Betfair"
+			},
+			"aliases": [
+				{
+					"alias": "BETFAIR",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BETFAIR_ES",
+					"country": "ES",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 6,
+				"name": "Bet365"
+			},
+			"aliases": [
+				{
+					"alias": "BET365",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET365_US",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 7,
+				"name": "Skybet"
+			},
+			"aliases": [
+				{
+					"alias": "SURREY",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 8,
+				"name": "Sporting Index"
+			},
+			"aliases": [
+				{
+					"alias": "SPORTNG_INDEX",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 9,
+				"name": "Racebets"
+			},
+			"aliases": [
+				{
+					"alias": "RB",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 10,
+				"name": "Boylesports"
+			},
+			"aliases": [
+				{
+					"alias": "BOLEYSPORTS",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 11,
+				"name": "BetVictor"
+			},
+			"aliases": [
+				{
+					"alias": "VC",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 12,
+				"name": "Allsported"
+			},
+			"aliases": [
+				{
+					"alias": "ALLSPORTED",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 13,
+				"name": "Betway"
+			},
+			"aliases": [
+				{
+					"alias": "BETWAY",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 14,
+				"name": "Pinnacle"
+			},
+			"aliases": [
+				{
+					"alias": "PINNACLE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 15,
+				"name": "888"
+			},
+			"aliases": [
+				{
+					"alias": "888"
+				},
+				{
+					"alias": "888_ES",
+					"country": "ES",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "888_US",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 16,
+				"name": "TOALS"
+			},
+			"aliases": [
+				{
+					"alias": "TOALS",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 17,
+				"name": "betking"
+			},
+			"aliases": [
+				{
+					"alias": "BETKING",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 18,
+				"name": "BWIN"
+			},
+			"aliases": [
+				{
+					"alias": "BWIN_PT",
+					"country": "PT",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BWIN_BE",
+					"country": "BE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 19,
+				"name": "Sportingbet"
+			},
+			"aliases": [
+				{
+					"alias": "SPORTINGBET_BR",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 20,
+				"name": "Unibet"
+			},
+			"aliases": [
+				{
+					"alias": "UNIBET",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "UNIBET_US",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "UNIBET_US_D",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 21,
+				"name": "Betsson"
+			},
+			"aliases": [
+				{
+					"alias": "BETSSON",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 22,
+				"name": "Mansionbet"
+			},
+			"aliases": [
+				{
+					"alias": "MANSIONBET",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 23,
+				"name": "BarOne"
+			},
+			"aliases": [
+				{
+					"alias": "BARONE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 24,
+				"name": "Tote"
+			},
+			"aliases": [
+				{
+					"alias": "TOTE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 25,
+				"name": "Besafe"
+			},
+			"aliases": [
+				{
+					"alias": "BETSAFE",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 26,
+				"name": "Draftkings"
+			},
+			"aliases": [
+				{
+					"alias": "DRAFTKINGS",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_PA",
+					"country": "US",
+					"region": "US-PA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_WV",
+					"country": "US",
+					"region": "US-WV",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_NY",
+					"country": "US",
+					"region": "US-NY",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_IL",
+					"country": "US",
+					"region": "US-IL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_MI",
+					"country": "US",
+					"region": "US-MI",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_OH",
+					"country": "US",
+					"region": "US-OH",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_IN",
+					"country": "US",
+					"region": "US-IN",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_CO",
+					"country": "US",
+					"region": "US-CO",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_IA",
+					"country": "US",
+					"region": "US-IA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_MO",
+					"country": "US",
+					"region": "US-MO",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_KY",
+					"country": "US",
+					"region": "US-KY",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_NH",
+					"country": "US",
+					"region": "US-NH",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_TN",
+					"country": "US",
+					"region": "US-TN",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_VA",
+					"country": "US",
+					"region": "US-VA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_CT",
+					"country": "US",
+					"region": "US-CT",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_AZ",
+					"country": "US",
+					"region": "US-AZ",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_NJ",
+					"country": "US",
+					"region": "US-BJ",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "DRAFTKINGS_D_TX",
+					"country": "US",
+					"region": "US-TX",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 27,
+				"name": "Fanduel"
+			},
+			"aliases": [
+				{
+					"alias": "FANDUEL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "FANDUEL_D",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 28,
+				"name": "Foxbet"
+			},
+			"aliases": [
+				{
+					"alias": "FOXBET",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "FOXBET_D",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 29,
+				"name": "Maximbet"
+			},
+			"aliases": [
+				{
+					"alias": "MAXIMBET",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 30,
+				"name": "MGM"
+			},
+			"aliases": [
+				{
+					"alias": "MGM",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "MGM_D",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 31,
+				"name": "Pointsbet"
+			},
+			"aliases": [
+				{
+					"alias": "POINTSBET",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_USA",
+					"country": "US",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_CO",
+					"country": "US",
+					"region": "US-CO",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_IL",
+					"country": "US",
+					"region": "US-IL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_IN",
+					"country": "US",
+					"region": "US-IN",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_IA",
+					"country": "US",
+					"region": "US-IA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_MI",
+					"country": "US",
+					"region": "US-MI",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_NY",
+					"country": "US",
+					"region": "US-NY",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_PA",
+					"country": "US",
+					"region": "US-PA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_VA",
+					"country": "US",
+					"region": "US-VA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "POINTSBET_WV",
+					"country": "US",
+					"region": "US-WV",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 32,
+				"name": "BetRivers"
+			},
+			"aliases": [
+				{
+					"alias": "BET_RIVERS_CA_ON",
+					"country": "CA",
+					"region": "ON",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_CO",
+					"country": "US",
+					"region": "US-CO",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_IA",
+					"country": "US",
+					"region": "US-IA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_IL",
+					"country": "US",
+					"region": "US-IL",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_IN",
+					"country": "US",
+					"region": "US-IN",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_MI",
+					"country": "US",
+					"region": "US-MI",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_PA",
+					"country": "US",
+					"region": "US-PA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_VA",
+					"country": "US",
+					"region": "US-VA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "BET_RIVERS_WV",
+					"country": "US",
+					"region": "US-WV",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 33,
+				"name": "Sugarhouse"
+			},
+			"aliases": [
+				{
+					"alias": "SUGAR_HOUSE_CT",
+					"country": "US",
+					"region": "US-CT",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "SUGAR_HOUSE_NJ",
+					"country": "US",
+					"region": "US-NJ",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "SUGAR_HOUSE_PA",
+					"country": "US",
+					"region": "US-PA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "SUGAR_HOUSE_D_CT",
+					"country": "US",
+					"region": "US-CT",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "SUGAR_HOUSE_D_NJ",
+					"country": "US",
+					"region": "US-NJ",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "SUGAR_HOUSE_D_PA",
+					"country": "US",
+					"region": "US-PA",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 34,
+				"name": "Tipico"
+			},
+			"aliases": [
+				{
+					"alias": "TIPICO",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 35,
+				"name": "Twinspires"
+			},
+			"aliases": [
+				{
+					"alias": "BET_AMERICA",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "RESORTS",
+					"deeplinkingType": "bookmaker"
+				},
+				{
+					"alias": "TWINSPIRES_D",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 36,
+				"name": "Caesers"
+			},
+			"aliases": [
+				{
+					"alias": "CAESARS",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		},
+		{
+			"bookmaker": {
+				"id": 37,
+				"name": "Wynn"
+			},
+			"aliases": [
+				{
+					"alias": "WYNN",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		}
+	],
+	"metabet": [
+		{
+			"bookmaker": {
+				"id": 37,
+				"name": "Wynn"
+			},
+			"aliases": [
+				{
+					"alias": "WYNN_MB",
+					"deeplinkingType": "metabet"
+				}
+			]
+		}
+	],
+	"bookmaker": [
+		{
+			"bookmaker": {
+				"id": 37,
+				"name": "Wynn"
+			},
+			"aliases": [
+				{
+					"alias": "WYNN",
+					"deeplinkingType": "bookmaker"
+				}
+			]
+		}
+	],
+	"events": {
+		"data": [
+			{
+				"id": 2677,
+				"schema": "SportsEvent",
+				"name": "March Madness 2023",
+				"slug": "march-madness",
+				"href": "https://uat.pickswise.com/college-basketball/march-madness/",
+				"childPages": {
+					"news": "https://uat.pickswise.com/college-basketball/march-madness/news/",
+					"best_bets": "https://uat.pickswise.com/college-basketball/march-madness/best-bets/",
+					"odds": "https://uat.pickswise.com/college-basketball/march-madness/odds/",
+					"parlays": "https://uat.pickswise.com/college-basketball/march-madness/parlays/",
+					"picks": "https://uat.pickswise.com/college-basketball/march-madness/picks/",
+					"picks_grid": "https://uat.pickswise.com/college-basketball/march-madness/",
+					"predictions": "https://uat.pickswise.com/college-basketball/march-madness/predictions/",
+					"promo_codes": "https://uat.pickswise.com/college-basketball/march-madness/bonuses/",
+					"prop_bets": "https://uat.pickswise.com/college-basketball/march-madness/prop-bets/",
+					"video": "https://uat.pickswise.com/college-basketball/march-madness/video/"
+				},
+				"startTime": 1647147600,
+				"startTimeString": "2022-03-13T05:00:00+00:00",
+				"awayTeam": null,
+				"homeTeam": null,
+				"sports": [
+					{
+						"id": 377,
+						"name": "College Basketball",
+						"shortName": "NCAAB",
+						"slug": "college-basketball",
+						"href": "https://uat.pickswise.com/college-basketball/",
+						"childPages": {
+							"news": "https://uat.pickswise.com/news/college-basketball/",
+							"picks": "https://uat.pickswise.com/college-basketball/picks/",
+							"parlays": "https://uat.pickswise.com/college-basketball/parlays/",
+							"predictions": "https://uat.pickswise.com/college-basketball/predictions/",
+							"best_bets": "https://uat.pickswise.com/college-basketball/best-bets/"
+						},
+						"hypometerId": "CBB",
+						"gspId": null,
+						"image": {
+							"id": 162565,
+							"alt": "Bouknight to the rim for UConn",
+							"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-scaled.jpg",
+							"sizes": {
+								"thumbnail": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-150x150.jpg",
+									"width": 150,
+									"height": 150
+								},
+								"medium": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-300x225.jpg",
+									"width": 300,
+									"height": 225
+								},
+								"large": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-1024x768.jpg",
+									"width": 1024,
+									"height": 768
+								},
+								"featured": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-scaled.jpg",
+									"width": 960,
+									"height": 720
+								},
+								"squarexxl": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/02/23013649/James-Bouknight-min-scaled.jpg",
+									"width": 600,
+									"height": 450
+								}
+							}
+						},
+						"pickCount": 0,
+						"predictionCount": 0,
+						"inSeason": true,
+						"featured": true,
+						"noPicksText": "",
+						"intro": {
+							"title": "College Basketball Analysis",
+							"content": null
+						},
+						"content": {
+							"title": "College Basketball Analysis",
+							"content": null
+						},
+						"playlistID": ""
+					}
+				],
+				"style": {
+					"colorOne": "#1493ff",
+					"colorTwo": "#001f59",
+					"colorThree": ""
+				},
+				"bookmakers": [
+					{
+						"id": 1321,
+						"name": "FanDuel Sportsbook",
+						"slug": "fanduel-sportsbook",
+						"style": {
+							"colorOne": "#1493ff",
+							"colorTwo": "#001f59",
+							"colorThree": ""
+						},
+						"image": {
+							"id": null,
+							"alt": "FanDuel Sportsbook",
+							"src": "https://uat.pickswise.com/wp-content/uploads/2022/09/FD-Logo.png",
+							"sizes": {
+								"icon": {
+									"src": "https://uat.pickswise.com/wp-content/uploads/2022/09/Fanduel-Crest-new.png",
+									"width": 129,
+									"height": 129
+								}
+							}
+						},
+						"headerBackgroundImage": null
+					}
+				],
+				"playlistID": "PLcvud8Bu6-JCTjWxE4E-0hMooDl1soCu8",
+				"description": "",
+				"location": "",
+				"locale": "",
+				"region": "",
+				"organizer": "NCAA",
+				"image": {
+					"id": null,
+					"alt": "March Madness 2023",
+					"src": "https://www.pickswise.com/wp-content/offload/uploads/2022/03/07191257/AP21079074563110-min-scaled.jpg",
+					"sizes": null
+				}
+			},
+			{
+				"id": 3054,
+				"schema": "SportsEvent",
+				"name": "MLB World Series 2022",
+				"slug": "world-series",
+				"href": "https://uat.pickswise.com/mlb/world-series/",
+				"childPages": {
+					"news": "https://uat.pickswise.com/mlb/world-series/news/",
+					"best_bets": "https://uat.pickswise.com/mlb/world-series/best-bets/",
+					"odds": "https://uat.pickswise.com/mlb/world-series/",
+					"parlays": "https://uat.pickswise.com/mlb/world-series/",
+					"picks": "https://uat.pickswise.com/mlb/world-series/picks/",
+					"picks_grid": "https://uat.pickswise.com/mlb/world-series/",
+					"predictions": "https://uat.pickswise.com/mlb/world-series/predictions/",
+					"promo_codes": "https://uat.pickswise.com/mlb/world-series/",
+					"prop_bets": "https://uat.pickswise.com/mlb/world-series/prop-bets/",
+					"video": "https://uat.pickswise.com/mlb/world-series/"
+				},
+				"startTime": 1666843200,
+				"startTimeString": "2022-10-27T04:00:00+00:00",
+				"awayTeam": null,
+				"homeTeam": null,
+				"sports": [
+					{
+						"id": 3,
+						"name": "MLB",
+						"shortName": "MLB",
+						"slug": "mlb",
+						"href": "https://uat.pickswise.com/mlb/",
+						"childPages": {
+							"news": "https://uat.pickswise.com/news/mlb/",
+							"picks": "https://uat.pickswise.com/mlb/picks/",
+							"parlays": "https://uat.pickswise.com/mlb/parlays/",
+							"predictions": "https://uat.pickswise.com/mlb/predictions/",
+							"best_bets": "https://uat.pickswise.com/mlb/best-bets/"
+						},
+						"hypometerId": "",
+						"gspId": null,
+						"image": {
+							"id": 191065,
+							"alt": "Jose Suarez MLB player props",
+							"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-scaled.jpg",
+							"sizes": {
+								"thumbnail": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-150x150.jpg",
+									"width": 150,
+									"height": 150
+								},
+								"medium": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-300x200.jpg",
+									"width": 300,
+									"height": 200
+								},
+								"large": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-1024x683.jpg",
+									"width": 1024,
+									"height": 683
+								},
+								"featured": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-scaled.jpg",
+									"width": 1079,
+									"height": 720
+								},
+								"squarexxl": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/05101611/USATSI_16332220-min-scaled.jpg",
+									"width": 600,
+									"height": 400
+								}
+							}
+						},
+						"pickCount": 0,
+						"predictionCount": 0,
+						"inSeason": false,
+						"featured": true,
+						"noPicksText": "",
+						"intro": {
+							"title": null,
+							"content": null
+						},
+						"content": {
+							"title": null,
+							"content": null
+						},
+						"playlistID": ""
+					}
+				],
+				"style": {
+					"colorOne": "",
+					"colorTwo": "#1a21a8",
+					"colorThree": ""
+				},
+				"bookmakers": null,
+				"playlistID": "",
+				"description": "",
+				"location": "",
+				"locale": "",
+				"region": "",
+				"organizer": "MLB",
+				"image": null
+			},
+			{
+				"id": 2906,
+				"schema": "SportsEvent",
+				"name": "NBA Playoffs 2023",
+				"slug": "playoffs",
+				"href": "https://uat.pickswise.com/nba/playoffs/",
+				"childPages": {
+					"news": "https://uat.pickswise.com/nba/playoffs/news/",
+					"best_bets": "https://uat.pickswise.com/nba/playoffs/best-bets/",
+					"odds": "https://uat.pickswise.com/nba/playoffs/",
+					"parlays": "https://uat.pickswise.com/nba/playoffs/",
+					"picks": "https://uat.pickswise.com/nba/playoffs/picks/",
+					"picks_grid": "https://uat.pickswise.com/nba/playoffs/",
+					"predictions": "https://uat.pickswise.com/nba/playoffs/predictions/",
+					"promo_codes": "https://uat.pickswise.com/nba/playoffs/",
+					"prop_bets": "https://uat.pickswise.com/nba/playoffs/prop-bets/",
+					"video": "https://uat.pickswise.com/nba/playoffs/"
+				},
+				"startTime": 1682049600,
+				"startTimeString": "2023-04-21T04:00:00+00:00",
+				"awayTeam": null,
+				"homeTeam": null,
+				"sports": [
+					{
+						"id": 122,
+						"name": "NBA",
+						"shortName": "NBA",
+						"slug": "nba",
+						"href": "https://uat.pickswise.com/nba/",
+						"childPages": {
+							"news": "https://uat.pickswise.com/news/nba/",
+							"picks": "https://uat.pickswise.com/nba/picks/",
+							"parlays": "https://uat.pickswise.com/nba/parlays/",
+							"predictions": "https://uat.pickswise.com/nba/predictions/",
+							"best_bets": "https://uat.pickswise.com/nba/best-bets/"
+						},
+						"hypometerId": "NBA",
+						"gspId": null,
+						"image": {
+							"id": 191591,
+							"alt": "Milwaukee Bucks guard Jrue Holiday (21) shoots against Phoenix Suns guard Chris Paul (3) during the first half in game one of the 2021 NBA Finals at Phoenix Suns Arena",
+							"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-scaled.jpg",
+							"sizes": {
+								"thumbnail": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-150x150.jpg",
+									"width": 150,
+									"height": 150
+								},
+								"medium": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-300x225.jpg",
+									"width": 300,
+									"height": 225
+								},
+								"large": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-1024x767.jpg",
+									"width": 1024,
+									"height": 767
+								},
+								"featured": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-scaled.jpg",
+									"width": 961,
+									"height": 720
+								},
+								"squarexxl": {
+									"src": "https://www.pickswise.com/wp-content/offload/uploads/2021/07/07191251/USATSI_16376930-scaled.jpg",
+									"width": 600,
+									"height": 450
+								}
+							}
+						},
+						"pickCount": 0,
+						"predictionCount": 0,
+						"inSeason": true,
+						"featured": true,
+						"noPicksText": "",
+						"intro": {
+							"title": "NBA Analysis",
+							"content": null
+						},
+						"content": {
+							"title": "NBA Analysis ",
+							"content": null
+						},
+						"playlistID": ""
+					}
+				],
+				"style": {
+					"colorOne": "#17408b",
+					"colorTwo": "#c9082a",
+					"colorThree": ""
+				},
+				"bookmakers": null,
+				"playlistID": "",
+				"description": "",
+				"location": "",
+				"locale": "",
+				"region": "",
+				"organizer": "NBA",
+				"image": null
+			}
+		]
+	}
+}

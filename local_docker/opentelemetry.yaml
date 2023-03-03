@@ -1,0 +1,44 @@
+receivers:
+    otlp:
+        protocols:
+            grpc:
+                endpoint: 'localhost:4317'
+            http:
+                endpoint: "localhost:4318"
+
+exporters:
+    prometheus:
+        endpoint: '0.0.0.0:8889'
+        namespace: B2B
+        metric_expiration: 525600m
+
+    jaeger:
+        endpoint: jaeger:14250
+        tls:
+            insecure: true
+
+processors:
+    batch:
+
+extensions:
+    health_check:
+    pprof:
+        endpoint: :1888
+    zpages:
+        endpoint: :55679
+
+service:
+    extensions: [pprof, zpages, health_check]
+    telemetry:
+        logs:
+            level: "info"
+            development: true
+            encoding: "json"
+    pipelines:
+        traces:
+            receivers: [otlp]
+            processors: [batch]
+            exporters: [jaeger]
+        metrics:
+            receivers: [otlp]
+            exporters: [prometheus]

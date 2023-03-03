@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+    - name: Jaeger
+      type: jaeger
+      uid: jaeger-local
+      access: proxy
+      url: http://jaeger:16686/
+      basicAuth: false
+      editable: true
+      isDefault: true

@@ -1,0 +1,4 @@
+{
+	"/api/aliases?name=:name": "/:name",
+	"/wp-json/pw/v1/events": "/events"
+}
