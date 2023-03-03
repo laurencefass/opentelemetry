@@ -4,11 +4,6 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
-  // await otelSDK
-  //   .start()
-  //   .then(() => console.log('nodeSDK started succesfully'))
-  //   .catch((error) => console.log('Error initializing otelSDK', error));
-
   await startTracing()
     .then(() => console.log('nodeSDK started succesfully'))
     .catch((error: any) => console.log('Error initializing otelSDK', error));
