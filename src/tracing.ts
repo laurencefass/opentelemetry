@@ -1,7 +1,7 @@
 import { Span } from '@opentelemetry/api';
 import { ExportResult } from '@opentelemetry/core';
-import { OTLPMetricExporter } from '@opentelemetry/exporter-metrics-otlp-http';
-import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-http';
+import { OTLPMetricExporter } from '@opentelemetry/exporter-metrics-otlp-grpc';
+import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-grpc';
 import { ExpressInstrumentation } from '@opentelemetry/instrumentation-express';
 import { HttpInstrumentation } from '@opentelemetry/instrumentation-http';
 import { Resource } from '@opentelemetry/resources';
@@ -19,7 +19,7 @@ diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
 
 export const monitoringAttributes: Record<string, string> = {
   [SemanticResourceAttributes.SERVICE_NAMESPACE]: 'opentelemetry',
-  [SemanticResourceAttributes.SERVICE_NAME]: 'observable_appl',
+  [SemanticResourceAttributes.SERVICE_NAME]: 'observable_app',
   [SemanticResourceAttributes.DEPLOYMENT_ENVIRONMENT]:
     process.env.NODE_ENV ?? 'production',
 };
@@ -27,12 +27,22 @@ export const monitoringAttributes: Record<string, string> = {
 export async function startTracing() {
   try {
     // https://github.com/open-telemetry/opentelemetry-js/tree/main/experimental/packages/exporter-trace-otlp-grpc
-    const traceExporter = new OTLPTraceExporter();
+    const traceExporter = new OTLPTraceExporter({
+      // grpc (no path)
+      url: 'http://opentelemetry:4317',
+      // http (include path)
+      // url: 'http://opentelemetry:4318/v1/traces',
+    });
 
     // https://github.com/open-telemetry/opentelemetry-js/tree/main/experimental/packages/opentelemetry-exporter-metrics-otlp-grpc
     const metricExporter = new PeriodicExportingMetricReader({
-      exporter: new OTLPMetricExporter(),
-      exportIntervalMillis: 5000,
+      exporter: new OTLPMetricExporter({
+        // grpc (no path)
+        url: 'http://opentelemetry:4317',
+        // http (include path)
+        // url: 'http://opentelemetry:4318/v1/metrics',
+      }),
+      exportIntervalMillis: 1000,
     });
 
     const sdk = new NodeSDK({
