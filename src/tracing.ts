@@ -42,7 +42,7 @@ export async function startTracing() {
         // http (include path)
         // url: 'http://opentelemetry:4318/v1/metrics',
       }),
-      exportIntervalMillis: 1000,
+      exportIntervalMillis: 5000,
     });
 
     const sdk = new NodeSDK({

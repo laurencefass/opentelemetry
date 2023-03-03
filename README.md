@@ -19,7 +19,7 @@ View prometheus UI at http://localhost:9090/
 View Jaeger UI at http://localhost:16686/
 View Grafana UI at http://localhost:3030/
 
-Application endpoints will trigger custom spans and metrics!
+Application endpoints will trigger custom spans and metrics! On startup this repo exports a dashboard to Grafana to count calls to the services called on these endpoints.
 
 ```
 localhost:9000/hello
