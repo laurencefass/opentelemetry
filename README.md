@@ -24,15 +24,31 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a suite of docker containers to run and test Opentelemetry metrics and 
 
-## Installation
+Suite consists of:
+
+Prometheus
+Jaeger
+Grafana
+OpenTelemetry Collector
+Simple Observable application
+
+Once startup has completed
+
+View prometheus UI at http://localhost:9090/
+Jaeger UI at http://localhost:16686/
+Grafana UI at http://localhost:3030/
+
+
+## Installation and startup
 
 ```bash
 $ npm install
+$ docker compose up -d
 ```
 
-## Running the app
+## Running the standalone app
 
 ```bash
 # development
@@ -57,17 +73,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
