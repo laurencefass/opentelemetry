@@ -38,7 +38,7 @@ export async function startTracing() {
     const sdk = new NodeSDK({
       resource: new Resource(monitoringAttributes),
       traceExporter: traceExporter,
-      // metricReader: metricExporter,
+      metricReader: metricExporter,
       spanProcessor: new BatchSpanProcessor(traceExporter, {
         scheduledDelayMillis: 500,
       }),
