@@ -19,8 +19,16 @@ export class AppController {
   useMemory(): string {
     return this.appService.useMemory();
   }
-  @Get('complex/:number')
+  @Get('fibonacci/:number')
   doFibonacci(@Param('number') number: number): string {
     return this.appService.doFibonacci(number);
+  }
+
+  @Get('batch/:number/:delay')
+  doBatch(
+    @Param('number') number: number,
+    @Param('delay') delay: number,
+  ): string {
+    return this.appService.doBatch(number, delay);
   }
 }

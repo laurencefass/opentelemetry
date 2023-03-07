@@ -25,7 +25,8 @@ services:
             - '16686:16686'
             - '14268'
             - '14250'
-
+        # environment:
+        #     - JAEGER_REPORTER_MAX_QUEUE_SIZE=10000
     prometheus:
         image: prom/prometheus
         container_name: prometheus

@@ -15,7 +15,7 @@ import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions'
 
 // For troubleshooting, set the log level to DiagLogLevel.DEBUG
 import { diag, DiagConsoleLogger, DiagLogLevel } from '@opentelemetry/api';
-diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
+// diag.setLogger(new DiagConsoleLogger(), DiagLogLevel.DEBUG);
 
 export const monitoringAttributes: Record<string, string> = {
   [SemanticResourceAttributes.SERVICE_NAMESPACE]: 'opentelemetry',
@@ -29,6 +29,7 @@ export async function startTracing() {
     // https://github.com/open-telemetry/opentelemetry-js/tree/main/experimental/packages/exporter-trace-otlp-grpc
     const traceExporter = new OTLPTraceExporter({
       // grpc (no path)
+      timeoutMillis: 30000,
       url: 'http://opentelemetry:4317',
       // http (include path)
       // url: 'http://opentelemetry:4318/v1/traces',
@@ -42,7 +43,7 @@ export async function startTracing() {
         // http (include path)
         // url: 'http://opentelemetry:4318/v1/metrics',
       }),
-      exportIntervalMillis: 5000,
+      exportIntervalMillis: 10,
     });
 
     const sdk = new NodeSDK({
@@ -50,7 +51,7 @@ export async function startTracing() {
       traceExporter: traceExporter,
       metricReader: metricExporter,
       spanProcessor: new BatchSpanProcessor(traceExporter, {
-        scheduledDelayMillis: 500,
+        scheduledDelayMillis: 10,
       }),
       instrumentations: [
         new HttpInstrumentation(),
