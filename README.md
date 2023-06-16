@@ -4,8 +4,8 @@
 </p>
 
 
-<a href="http://nestjs.com/" target="blank"><img src="./opentelemetry.png
-" width="200" alt="Nest Logo" /></a>
+<a href="http://nestjs.com/" target="blank"><img src="opentelemetry.png
+" width="200" alt="opentelemety logo" /></a>
 
 
 Suite of docker containers to for a ready-made Opentelemetry observability suite. Just run, and enjoy the views.
