@@ -4,8 +4,6 @@
 </p>
 
 
-## Description
-
 <a href="http://nestjs.com/" target="blank"><img src="./opentelemetry.png
 " width="200" alt="Nest Logo" /></a>
 
